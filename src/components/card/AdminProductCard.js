@@ -10,7 +10,7 @@ const AdminProductCard = ({ product, handleRemove }) => {
   // console.log(product)
   return (
     <div>
-      <Row xs={1} md={2} lg={4}>
+      <Row xs={1} md={2} lg={4} className="justify-content-center ">
         <Card
           className="mb-4"
           style={{ width: "16rem", background: "GhostWhite" }}
