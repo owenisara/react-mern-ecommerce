@@ -31,7 +31,7 @@ useEffect(()=>{
 
 const loadData = ()=>{
     setLoading(true)
-    listProduct(10)
+    listProduct(12)
     .then((res)=>{
         setProduct(res.data)
         setLoading(false)
